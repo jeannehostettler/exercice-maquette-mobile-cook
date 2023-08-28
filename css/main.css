@@ -45,6 +45,11 @@ h1 {
   line-height: 1.2;
 }
 
+.author { 
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 h2 {
   font-family: Libre Franklin;
   font-size: 20px;
@@ -61,8 +66,9 @@ h2 {
 }
 
 .cooking {
-  background-color: cadetblue;
+  background-color: rgb(199, 202, 183);
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .cooking h2{
