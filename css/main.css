@@ -34,8 +34,33 @@ a {
   font-size: 16px;
 }
 
+h1 {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
 h2 {
   font-family: Libre Franklin;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.red-title {
+  font-size: 11px;
+  background-color: red;
+  color: white;
+}
+
+.reciepes {
+  font-family: Libre Franklin;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+footer {
+  background-color: black;
+  color: white;
 }
 
 img,
