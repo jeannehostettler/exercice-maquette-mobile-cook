@@ -57,7 +57,7 @@ h2 {
 }
 
 .red-title {
-  font-size: 11px;
+font-size: 11px;
  border-radius: 10px;
  background: red;
  text-align: center;
@@ -67,7 +67,7 @@ h2 {
 
 .cooking {
   background-color: rgb(199, 202, 183);
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
@@ -88,6 +88,11 @@ h2 {
 footer {
   background-color: black;
   color: white;
+  padding: 20px 10px;
+}
+
+.footer-title h2{
+  font-family: 'Sorts Mill Goudy', serif;
 }
 
 img,
