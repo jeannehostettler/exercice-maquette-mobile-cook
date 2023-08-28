@@ -30,6 +30,12 @@ body {
 
 a {
   color: inherit;
+  font-family: Libre Franklin;
+  font-size: 16px;
+}
+
+h2 {
+  font-family: Libre Franklin;
 }
 
 img,
