@@ -26,12 +26,17 @@ body {
 
   font-size: 1rem;
   line-height: 1.5rem;
+  width: 320px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
 }
 
 a {
   color: inherit;
   font-family: Libre Franklin;
-  font-size: 16px;
 }
 
 h1 {
@@ -48,14 +53,25 @@ h2 {
 
 .red-title {
   font-size: 11px;
-  background-color: red;
-  color: white;
+ border-radius: 10px;
+ background: red;
+ text-align: center;
+ color: white;
+ margin: 3px 70px 3px 70px;
+}
+
+.cooking {
+  background-color: cadetblue;
 }
 
 .reciepes {
   font-family: Libre Franklin;
   font-size: 20px;
   line-height: 1.2;
+  background: white;
+  margin: 0 10px;
+  padding: 10px;
+  border: 1px gray solid;
 }
 
 footer {
@@ -68,6 +84,7 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
+  padding: 10px 10px 0px;
 }
 
 /* ====================================
