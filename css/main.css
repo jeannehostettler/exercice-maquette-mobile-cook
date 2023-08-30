@@ -30,6 +30,13 @@ body {
   margin: 0 auto;
 }
 
+nav {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 6px;
+}
+
 p {
   text-align: center;
 }
@@ -40,12 +47,16 @@ a {
 }
 
 h1 {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: "Sorts Mill Goudy", serif;
   font-size: 24px;
   line-height: 1.2;
 }
 
-.author { 
+.intro {
+  padding: 10px 0;
+}
+
+.author {
   text-align: center;
   padding-bottom: 30px;
 }
@@ -57,22 +68,21 @@ h2 {
 }
 
 .red-title {
-font-size: 11px;
- border-radius: 10px;
- background: red;
- text-align: center;
- color: white;
- margin: 3px 70px 3px 70px;
+  font-size: 11px;
+  border-radius: 10px;
+  background: red;
+  text-align: center;
+  color: white;
+  margin: 3px 70px 3px 70px;
 }
 
 .cooking {
   background-color: rgb(199, 202, 183);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 10px;
 }
 
-.cooking h2{
-  font-family: 'Sorts Mill Goudy', serif;
+.cooking h2 {
+  font-family: "Sorts Mill Goudy", serif;
 }
 
 .reciepes {
@@ -91,8 +101,13 @@ footer {
   padding: 20px 10px;
 }
 
-.footer-title h2{
-  font-family: 'Sorts Mill Goudy', serif;
+.footer-title h2 {
+  font-family: "Sorts Mill Goudy", serif;
+}
+
+.informations {
+  display: flex;
+  flex-direction: column;
 }
 
 img,
