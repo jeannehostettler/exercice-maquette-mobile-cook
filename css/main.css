@@ -50,10 +50,11 @@ h1 {
   font-family: "Sorts Mill Goudy", serif;
   font-size: 24px;
   line-height: 1.2;
+  text-align: center;
 }
 
 .intro {
-  padding: 10px 0;
+  padding: 10px 15px;
 }
 
 .author {
@@ -73,12 +74,12 @@ h2 {
   background: red;
   text-align: center;
   color: white;
-  margin: 3px 70px 3px 70px;
+  margin: 3px 60px;
 }
 
 .cooking {
   background-color: rgb(199, 202, 183);
-  padding: 20px 10px;
+  padding: 20px 10px 2px;
 }
 
 .cooking h2 {
@@ -90,9 +91,9 @@ h2 {
   font-size: 20px;
   line-height: 1.2;
   background: white;
-  margin: 0 10px;
   padding: 10px;
   border: 1px gray solid;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -115,7 +116,6 @@ video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: text-top;
-  padding: 10px 10px 0px;
 }
 
 /* ====================================
